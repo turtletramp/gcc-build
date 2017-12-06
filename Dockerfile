@@ -17,6 +17,7 @@ RUN apt-get update -q && \
     DEBIAN_FRONTEND=noninteractive apt-get install -q -y --no-install-recommends \
         build-essential \
         ca-certificates \
+        gcc-multilib g++-multilib \
         git \
         libfontconfig1 \
         libice6 \
