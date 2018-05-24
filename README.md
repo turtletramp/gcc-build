@@ -6,7 +6,7 @@ A headless gcc / cmake build environment for Ubuntu, tested with
 ## Usage
 
 * make
-* `docker run -t -i --rm -v $PWD:$PWD gcc-build:xenial-1 bash`
+* `docker run -t -i --rm -v $PWD:$PWD tutletramp/gcc-build:xenial-1 /bin/bash`
 * `cmake` or `gcc` in the container
 
 ## Credits
