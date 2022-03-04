@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:21.10
 
 ARG VERSION=0.1
 ARG VCS_REF
