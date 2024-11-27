@@ -3,6 +3,8 @@
 A headless gcc / cmake build environment for Ubuntu, tested with
 [16.04 LTS (Xenial Xerus)][xenial].
 
+Using manually installed current cmake V 3.31.1 and [gcc][gcc] V 7.3
+
 ## Usage
 
 * make
