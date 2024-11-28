@@ -32,10 +32,6 @@ RUN apt-get update -q && \
         p7zip \
         make \
     && apt-get clean
-#    gcc-multilib g++-multilib \
-    #cmake \        # cmake 3.5.1 is too old; lets install current version manually
-
-#RUN apt-get update -q && apt-get install -y gcc-7 g++-7 gcc-7-multilib gcc-7-base cpp-7 libgcc-7-dev && apt-get clean
 
 RUN locale-gen en_US.UTF-8 && DEBIAN_FRONTEND=noninteractive dpkg-reconfigure locales
 
